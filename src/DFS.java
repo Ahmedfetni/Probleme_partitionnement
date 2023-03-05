@@ -61,8 +61,13 @@ public class DFS {
                 // intialisation de la valeur optimal
                 int[] arr = new int[taille];
                 initWithOne(arr);
-                solutionOptimal = new Noeud(arr, 0);
 
+                ArrayList<Noeud> listDesSolutionOptimal = new ArrayList<Noeud>();
+                listDesSolutionOptimal.add(new Noeud(arr, 0));
+                long nombre_des_noeud= 0;
+
+                //init flags
+                boolean solutionTrouver = false;
 
                 ArrayList<Noeud> ouvert = new ArrayList<Noeud>(); // la pile
                 ArrayList<Noeud> ferme = new ArrayList<Noeud>();
@@ -78,8 +83,7 @@ public class DFS {
 
 
                     if(etatFinal(n, taille)){
-
-
+                        solutionTrouver = true;
                         if (Modele.validation_solution(arrayOriginal,
                                 n.getSol())){
                             //Si etat final alors solution
@@ -87,14 +91,22 @@ public class DFS {
                                 System.out.println(n);
 
                             if(Modele.evaluation_solution(arrayOriginal,n.getSol()) <
-                                    Modele.evaluation_solution(arrayOriginal,solutionOptimal.getSol())){
-                                solutionOptimal =  n;
-                                ;
+                                    Modele.evaluation_solution(arrayOriginal,listDesSolutionOptimal.get(0).getSol())){
+                                for (int i = 0; i < listDesSolutionOptimal.size(); i++) {
+                                    listDesSolutionOptimal.remove(listDesSolutionOptimal.get(i));
+                                }
+                                listDesSolutionOptimal.add(n);
+                            }else if(Modele.evaluation_solution(arrayOriginal,n.getSol()) ==
+                                    Modele.evaluation_solution(arrayOriginal,listDesSolutionOptimal.get(0).getSol())){
+                                listDesSolutionOptimal.add(n);
                             }
                         }
                         continue;
                     }
                     successeurs(n,n.getIndex(),taille);
+                    if (!solutionTrouver) {
+                        nombre_des_noeud++;
+                    }
 
                     if (n.getChildren() == null)
                             System.exit(-1);
@@ -107,8 +119,11 @@ public class DFS {
 
                 }
 
-        System.out.println("La 1ere solution la plus optimal recontrer est "+
-                Arrays.toString(solutionOptimal.getSol()));
+        System.out.println("La liste des solutions la optimal");
+        for (int i = 0; i <listDesSolutionOptimal.size() ; i++) {
+            System.out.println(listDesSolutionOptimal.get(i));
+        }
+        System.out.println("nombre des noeud avant la premiere solution " + nombre_des_noeud);
 
     }
 }
