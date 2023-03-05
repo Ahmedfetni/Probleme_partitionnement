@@ -5,6 +5,7 @@ public class Noeud{
         public Noeud(int sol[], int index){
                 this.sol = sol;
                 this.index = index;
+                this.children = null;
 
         }
 

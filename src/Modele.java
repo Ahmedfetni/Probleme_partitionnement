@@ -1,7 +1,7 @@
 import java.util.*;
 public class Modele {
 
-    public void init_Tableau(int arr[]){
+    public static void  init_Tableau(int arr[]){
         for (int i = 0; i < arr.length ; i++) {
             arr[i] = -1;
         }
@@ -19,7 +19,7 @@ public class Modele {
         return S;
     }
 
-    public  int[] generation_tableau(int nb){
+    public static   int[] generation_tableau(int nb){
 
         int[] arr = new int [nb];
 
@@ -32,12 +32,12 @@ public class Modele {
         return arr;
     }
 
-    public void Affichage(int arr[]){
+    public static void Affichage(int arr[]){
         System.out.println("le tableau genere est: ");
         System.out.println(Arrays.toString(arr));
     }
 
-    public Boolean validation_solution(int sol[], int arr[]){
+    public static Boolean validation_solution(int sol[], int arr[]){
          int i = 0;
          int count1=0, count2=0;
 
@@ -66,7 +66,7 @@ public class Modele {
 
 
     //calculer la somme
-    private int somme(int arr[]){
+    private static int somme(int arr[]){
         int somme =  0;
         int i = 0;
         while( arr[i] != -1 && i < arr.length) {
@@ -75,7 +75,7 @@ public class Modele {
         }
         return somme;
     }
-    public int evaluation_solution(int sol[], int arr[]){
+    public static int evaluation_solution(int arr[],int sol[]){
         int[] p1 = new int[sol.length];
         int[] p2 = new int[sol.length];
         int k1=0,k2=0;

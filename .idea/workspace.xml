@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f78072-d890-479d-9e77-f770af2e7563" name="Changes" comment="intial commit &#10;class modele &#10;class noeud &#10;class DFS&#10;fonction des successeurs &#10;fonction creeRacin" />
+    <list default="true" id="91f78072-d890-479d-9e77-f770af2e7563" name="Changes" comment="intial commit &#10;class modele &#10;class noeud &#10;class DFS&#10;fonction des successeurs &#10;fonction creeRacin">
+      <change afterPath="$PROJECT_DIR$/src/Pile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modele.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Noeud.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +25,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6fb19f72-a972-4599-b3bf-227100963bdd" />
+        <option name="url" value="https://github.com/Ahmedfetni/Probleme_partitionnement.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678024963946</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="intial commit &#10;class modele &#10;class noeud &#10;class DFS&#10;fonction des successeurs &#10;fonction creeRacin">
+      <created>1678025449206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678025449206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
