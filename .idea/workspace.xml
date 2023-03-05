@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f78072-d890-479d-9e77-f770af2e7563" name="Changes" comment="intial commit &#10;class modele &#10;class noeud &#10;class DFS&#10;fonction des successeurs &#10;fonction creeRacin">
-      <change afterPath="$PROJECT_DIR$/src/Pile.java" afterDir="false" />
+    <list default="true" id="91f78072-d890-479d-9e77-f770af2e7563" name="Changes" comment="la fonction de recherche &#10;et rendre le modele une class static">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Modele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modele.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Noeud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Partition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,11 +117,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678025449206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="la fonction de recherche &#10;et rendre le modele une class static">
+      <created>1678029304501</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678029304501</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit &#10;class modele &#10;class noeud &#10;class DFS&#10;fonction des successeurs &#10;fonction creeRacin" />
-    <option name="LAST_COMMIT_MESSAGE" value="intial commit &#10;class modele &#10;class noeud &#10;class DFS&#10;fonction des successeurs &#10;fonction creeRacin" />
+    <MESSAGE value="la fonction de recherche &#10;et rendre le modele une class static" />
+    <option name="LAST_COMMIT_MESSAGE" value="la fonction de recherche &#10;et rendre le modele une class static" />
   </component>
 </project>

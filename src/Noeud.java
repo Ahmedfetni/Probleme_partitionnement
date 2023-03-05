@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Noeud{
         private int index ;
         private int[] sol;
@@ -24,5 +26,9 @@ public class Noeud{
 
         public void setChildren(Noeud[] children) {
                 this.children = children;
+        }
+        @Override
+        public String toString(){
+                return Arrays.toString(sol)+' '+index;
         }
 }

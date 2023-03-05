@@ -37,7 +37,7 @@ public class Modele {
         System.out.println(Arrays.toString(arr));
     }
 
-    public static Boolean validation_solution(int sol[], int arr[]){
+    public static Boolean validation_solution( int arr[],int sol[]){
          int i = 0;
          int count1=0, count2=0;
 
@@ -66,33 +66,20 @@ public class Modele {
 
 
     //calculer la somme
-    private static int somme(int arr[]){
-        int somme =  0;
-        int i = 0;
-        while( arr[i] != -1 && i < arr.length) {
-            somme += arr[i];
-            i++;
-        }
-        return somme;
-    }
+
     public static int evaluation_solution(int arr[],int sol[]){
-        int[] p1 = new int[sol.length];
-        int[] p2 = new int[sol.length];
-        int k1=0,k2=0;
-        init_Tableau(p1);
-        init_Tableau(p2);
+        int diffrence= 0;
         for (int i = 0; i < arr.length ; i++) {
             if (sol[i] == 0){
-                p1[k1] = arr[i] ;
-                k1++;
+                diffrence += arr[i] ;
+
             }
             if (sol[i] == 1){
-                p2[k2] = arr[i] ;
-                k2++;
+                diffrence -= arr[i];
             }
 
         }
-        return Math.abs(somme(p1)-somme(p2));
+        return Math.abs(diffrence);
 
     }
 
