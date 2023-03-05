@@ -2,8 +2,10 @@ import java.util.Arrays;
 
 public class Noeud{
         private int index ;
-        private int[] sol;
+        private int[] sol;//tab des 1 et 0 map
         private Noeud[] children ;
+
+
         public Noeud(int sol[], int index){
                 this.sol = sol;
                 this.index = index;
@@ -27,8 +29,10 @@ public class Noeud{
         public void setChildren(Noeud[] children) {
                 this.children = children;
         }
+
+        //for prints
         @Override
         public String toString(){
-                return Arrays.toString(sol)+' '+index;
+                return Arrays.toString(sol);
         }
 }
