@@ -50,7 +50,7 @@ public class DFS {
     }
 
 
-    public static void recherche(Noeud racine,int[]arrayOriginal, int taille){
+    public static void recherche(Noeud racine,int[]arrayOriginal, int taille, boolean afficherTousLesSolution){
                 // intialisation de la valeur optimal
                 int[] arr = new int[taille];
                 initWithOne(arr);
@@ -71,7 +71,9 @@ public class DFS {
 
 
                     if(etatFinal(n, taille)){
-
+                          //Si etat final alors solution
+                            if(afficherTousLesSolution)
+                                System.out.println(n);
                         if (Modele.validation_solution(arrayOriginal,
                                 n.getSol())){
 
@@ -94,7 +96,7 @@ public class DFS {
 
                 }
 
-        System.out.println("La solution optimal est "+
+        System.out.println("La 1ere solution la plus optimal recontrer est "+
                 Arrays.toString(solutionOptimal.getSol()));
 
     }

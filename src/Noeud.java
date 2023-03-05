@@ -29,6 +29,6 @@ public class Noeud{
         }
         @Override
         public String toString(){
-                return Arrays.toString(sol)+' '+index;
+                return Arrays.toString(sol);
         }
 }

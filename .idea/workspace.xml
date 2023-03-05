@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f78072-d890-479d-9e77-f770af2e7563" name="Changes" comment="la fonction de recherche &#10;et rendre le modele une class static">
+    <list default="true" id="91f78072-d890-479d-9e77-f770af2e7563" name="Changes" comment="Merge remote-tracking branch 'ahmedfetni/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modele.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Noeud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Partition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -51,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/ahmed/Documents/Meta_heuristique/tp_meta"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ahmed/Documents/Meta_heuristique/tp_meta&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -124,12 +120,53 @@
       <option name="project" value="LOCAL" />
       <updated>1678029304501</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'ahmedfetni/master'">
+      <created>1678037372301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678037372301</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'ahmedfetni/master'">
+      <created>1678037384928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678037384928</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'ahmedfetni/master'">
+      <created>1678037392469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678037392469</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'ahmedfetni/master'">
+      <created>1678037455877</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678037455877</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit &#10;class modele &#10;class noeud &#10;class DFS&#10;fonction des successeurs &#10;fonction creeRacin" />
     <MESSAGE value="la fonction de recherche &#10;et rendre le modele une class static" />
-    <option name="LAST_COMMIT_MESSAGE" value="la fonction de recherche &#10;et rendre le modele une class static" />
+    <MESSAGE value="version ou le projet marche" />
+    <MESSAGE value="Merge remote-tracking branch 'ahmedfetni/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'ahmedfetni/master'" />
   </component>
 </project>
